@@ -1,15 +1,7 @@
-ValueSet: SeverityVS
-Id: severity-vs
-Title: "Condition Severity Valueset"
-* $SCT#255604002 "Mild"
-* $SCT#6736007 "Moderate"
-* $SCT#24484000 "Severe"
+Alias:   $AUCorePatient = http://hl7.org.au/fhir/core/StructureDefinition/au-core-patient
 
-Profile: MyCondition
-Parent: Condition
-Description: "My condition profile."
-* clinicalStatus 1..1 MS
-* onset[x] only dateTime
-* subject only Reference(Patient)
-* code = $SCT#55822004 "Hyperlipidaemia"
-* severity from SeverityVS (required)
+Profile: MyPatient
+Parent: AUCorePatient
+Description: "Dummy Patient profile... replace this as required "
+* name 1..* 
+
