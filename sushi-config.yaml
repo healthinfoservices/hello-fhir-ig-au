@@ -41,10 +41,6 @@ contact:
         value: https://www.healthinfoservices.net
 
 
-fhirVersion: 5.0.0
-instanceOptions:
-  manualSliceOrdering: true
-
 pages:
   index.md:
     title: Template Implementation Guide

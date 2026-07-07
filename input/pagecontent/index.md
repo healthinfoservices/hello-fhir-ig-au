@@ -2,12 +2,14 @@
 
 ** Modify this page to provide description of your IG as required **
 
-This FHIR Implementation Guide (IG) defines a common set of FHIR profiles, extensions and terminology to support interoperable health information exchange.   
+This FHIR Implementation Guide (IG) defines a common set of FHIR profiles, extensions and terminology to support interoperable health information exchange in an Australian context.   
 
 The high level goals of this IG are:
 - Interoperability specification for health data exchange 
 - Compliance/compatibility guidance for aquisition or development of future health systems/software
-- Interface/data structure definition basis for future Health Information Exchange based on OpenHIE
+- Interface/data structure definition basis for future Health Information Exchange
+
+This IG defines further constraints and extensions to AU Base and AU Core IGs.
 
 This IG is currently in draft state for evaluation and validation by health stakeholders.   Any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
 
@@ -15,7 +17,7 @@ This IG is currently in draft state for evaluation and validation by health stak
 
 This guide is intended for:
 
-* Health ministries
+* Health departments & organisations
 * Software developers & Implementers
 * Clinical informatics specialists
 * Clinical/Technical Advisors and Working Groups
