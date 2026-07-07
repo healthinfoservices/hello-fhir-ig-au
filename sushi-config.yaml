@@ -1,0 +1,63 @@
+# ╭─────────────────────────          ImplementationGuide Notes         ───────────────────────────╮
+# | This is an initial configuration file for the template IG.                                 |
+# | Please modify the information below to match the requirements of your IG.  |
+# | The canonical URL will need to be changed once a suitable URL is agreed upon and available.    |
+# | The menu structure will be customized as required to fit the content of the IG.                |
+# | The version should be updated for each release of the IG, in accord with versioning policy.    |
+# | Keep the fhirVersion and instanceOptions settings unless specific reasons to change them.      |
+# ╰───────────────────────────────────────────────────────────────────────────────────────────────╯
+id: hello.fhir.ig
+packageId: hello.fhir.ig
+canonical: https://healthinfoservices.net/hello-fhir-ig
+name: HelloFHIRIG
+title: Template FHIR Implementation Guide - R5
+description: This Implementation Guide template has been developed to assist in those getting started with IG Authoring.
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+copyrightYear: 2026+
+releaseLabel: ci-build
+license: MIT
+copyright: Daniel Foulkes (HealthInfoServices)
+
+# publisher information
+publisher:
+  name: HealthInfoServices
+  url: https://healthinfoservices.net
+
+menu:
+  Home: index.html
+  Getting Started: gettingstarted.html
+  Data Types: datatypes.html
+  Resources: resources.html
+  Terminology: terminology.html
+  Extensions: extensions.html
+  Artifacts: artifacts.html
+
+# contact
+contact:
+  - name: Support
+    telecom:
+      - system: url
+        value: https://www.healthinfoservices.net
+
+
+fhirVersion: 5.0.0
+instanceOptions:
+  manualSliceOrdering: true
+
+pages:
+  index.md:
+    title: Template Implementation Guide
+  gettingstarted.md:
+    title: Authoring a FHIR IG using this template
+  datatypes.md:
+    title: Data Type Profiles
+  resources.md:
+    title: Resource Profiles
+  terminology.md:
+    title: Terminology
+  extensions.md:
+    title: Extensions
+
+
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"

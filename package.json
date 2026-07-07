@@ -1,0 +1,8 @@
+{
+  "name": "hello.fhir.ig",
+  "version": "0.1.0",
+  "description": "Template FHIR Implementation Guide - R5",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
