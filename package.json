@@ -1,8 +1,10 @@
 {
-  "name": "hello.fhir.ig",
+  "name": "hello.fhir.ig.au",
   "version": "0.1.0",
   "description": "Template FHIR Implementation Guide - R5",
   "license": "MIT",
   "dependencies": {
+    "hl7.fhir.au.base": "^6.0.0",
+    "hl7.fhir.au.core": "^2.0.0"
   }
 }

@@ -1,7 +1,7 @@
 {
   "resourceType" : "Requirements",
   "id" : "fromNarrative",
-  "url" : "https://healthinfoservices.net/hello-fhir-ig/Requirements/fromNarrative",
+  "url" : "https://healthinfoservices.net/hello-fhir-ig-au/Requirements/fromNarrative",
   "name" : "FromNarrative",
   "title" : "Narrative Conformance Statements",
   "status" : "active",

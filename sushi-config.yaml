@@ -1,17 +1,17 @@
 # ╭─────────────────────────          ImplementationGuide Notes         ───────────────────────────╮
-# | This is an initial configuration file for the template IG.                                 |
-# | Please modify the information below to match the requirements of your IG.  |
+# | This is an initial configuration file for a template IG for Australian context.                |
+# | Please modify the information below to match the requirements of your own IG.                  |
 # | The canonical URL will need to be changed once a suitable URL is agreed upon and available.    |
 # | The menu structure will be customized as required to fit the content of the IG.                |
 # | The version should be updated for each release of the IG, in accord with versioning policy.    |
 # | Keep the fhirVersion and instanceOptions settings unless specific reasons to change them.      |
 # ╰───────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hello.fhir.ig
-packageId: hello.fhir.ig
-canonical: https://healthinfoservices.net/hello-fhir-ig
-name: HelloFHIRIG
-title: Template FHIR Implementation Guide - R5
-description: This Implementation Guide template has been developed to assist in those getting started with IG Authoring.
+id: hello.fhir.ig.au
+packageId: hello.fhir.ig.au
+canonical: https://healthinfoservices.net/hello-fhir-ig-au
+name: HelloAuFHIRIG
+title: Template FHIR Implementation Guide in Australian Context
+description: This Implementation Guide template has been developed to assist Australian implementers to get started with IG Authoring.
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 copyrightYear: 2026+
@@ -59,5 +59,10 @@ pages:
   extensions.md:
     title: Extensions
 
-
-jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
+fhirVersion: 4.0.1
+dependencies:
+  hl7.fhir.au.core: 2.0.0
+  hl7.fhir.au.base: 6.0.0
+jurisdiction: urn:iso:std:iso:3166#AUS "Australia"
+instanceOptions:
+  manualSliceOrdering: true
