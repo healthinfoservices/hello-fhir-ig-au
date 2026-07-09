@@ -13,6 +13,8 @@ This IG defines further constraints and extensions to AU Base and AU Core IGs.
 
 This IG is currently in draft state for evaluation and validation by health stakeholders.   Any assistance, comments or suggestions would be deeply valued as we seek to refine this further.
 
+The source for this template is [here.](https://github.com/healthinfoservices/hello-fhir-ig-au)
+
 ### Audience  
 
 This guide is intended for:
