@@ -1,0 +1,149 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.162"],
+    "sources" : ["2.16.840.1.113883.4.642.3.162"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "oids" : ["2.16.840.1.113883.4.642.3.164"],
+    "sources" : ["2.16.840.1.113883.4.642.3.164"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStage",
+    "title" : "Condition Stage",
+    "description" : "Example value set for stages of cancer and other conditions.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.170"],
+    "sources" : ["2.16.840.1.113883.4.642.3.170"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStageType",
+    "title" : "Condition Stage Type",
+    "description" : "Example value set for the type of stages of cancer and other conditions",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.171"],
+    "sources" : ["2.16.840.1.113883.4.642.3.171"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/obs-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ObsVS",
+    "title" : "Observation ValueSet",
+    "description" : "Use all LOINC codes for observations",
+    "systems" : ["http://loinc.org"]
+  },
+  {
+    "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/severity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SeverityVS",
+    "title" : "Condition Severity Valueset",
+    "description" : "",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/body-site-1",
+    "version" : "1.0.2",
+    "status" : "active",
+    "name" : "BodySite",
+    "title" : "Body Site",
+    "description" : "The Body Site value set includes values that cover a broad range of anatomical and acquired body structures suitable for identifying a body site.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.36.1.2001.1004.201.10031"],
+    "sources" : ["1.2.36.1.2001.1004.201.10031"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-condition-1",
+    "version" : "1.0.2",
+    "status" : "active",
+    "name" : "ClinicalCondition",
+    "title" : "Clinical Condition",
+    "description" : "The Clinical Condition value set includes values that cover a broad range of clinical concepts to support the representation of conditions, including problems, diagnoses and disorders.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.36.1.2001.1004.201.10035"],
+    "sources" : ["1.2.36.1.2001.1004.201.10035"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  },
+  {
+    "url" : "https://healthterminologies.gov.au/fhir/ValueSet/clinical-finding-1",
+    "version" : "1.0.2",
+    "status" : "active",
+    "name" : "ClinicalFinding",
+    "title" : "Clinical Finding",
+    "description" : "The Clinical Finding value set includes a broad range of values that support the recording of disorders and clinical findings, including observations, judgments or assessments about subjects of care.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.36.1.2001.1004.201.10037"],
+    "sources" : ["1.2.36.1.2001.1004.201.10037"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  }]
+}

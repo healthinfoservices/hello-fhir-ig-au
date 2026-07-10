@@ -1,0 +1,23 @@
+{
+  "codeSystems" : [{
+    "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/obs-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ObsVS",
+    "title" : "Observation ValueSet",
+    "description" : "Use all LOINC codes for observations",
+    "systems" : ["http://loinc.org"]
+  },
+  {
+    "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/severity-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "SeverityVS",
+    "title" : "Condition Severity Valueset",
+    "description" : "",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-MyCondition.html" : "MyCondition"
+  }]
+}

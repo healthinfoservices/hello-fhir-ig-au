@@ -1,0 +1,26 @@
+# hello.fhir.ig.au#0.1.0: Template FHIR Implementation Guide in Australian Context(en)
+
+## Pages
+
+* [Template Implementation Guide](en/index.md)
+* [Extensions](en/extensions.md)
+* [Artifacts Summary](en/artifacts.md)
+* [Data Type Profiles](en/datatypes.md)
+* [Terminology](en/terminology.md)
+* [Authoring a FHIR IG using this template](en/gettingstarted.md)
+* [Resource Profiles](en/resources.md)
+
+## Resources
+
+### ValueSets
+
+* [Observation ValueSet](en/ValueSet-obs-vs.md)
+* [Condition Severity Valueset](en/ValueSet-severity-vs.md)
+
+### Resource Profiles
+
+* [MyCondition](en/StructureDefinition-MyCondition.md)
+
+### ImplementationGuides
+
+* [Template FHIR Implementation Guide in Australian Context](en/ImplementationGuide-hello.fhir.ig.au.md)

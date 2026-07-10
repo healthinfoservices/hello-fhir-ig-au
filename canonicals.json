@@ -1,0 +1,28 @@
+[{
+  "id" : "hello.fhir.ig.au",
+  "type" : "ImplementationGuide",
+  "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ImplementationGuide/hello.fhir.ig.au",
+  "version" : "0.1.0",
+  "name" : "HelloAuFHIRIG"
+},
+{
+  "id" : "MyCondition",
+  "type" : "StructureDefinition",
+  "url" : "https://healthinfoservices.net/hello-fhir-ig-au/StructureDefinition/MyCondition",
+  "version" : "0.1.0",
+  "name" : "MyCondition"
+},
+{
+  "id" : "obs-vs",
+  "type" : "ValueSet",
+  "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/obs-vs",
+  "version" : "0.1.0",
+  "name" : "ObsVS"
+},
+{
+  "id" : "severity-vs",
+  "type" : "ValueSet",
+  "url" : "https://healthinfoservices.net/hello-fhir-ig-au/ValueSet/severity-vs",
+  "version" : "0.1.0",
+  "name" : "SeverityVS"
+}]
